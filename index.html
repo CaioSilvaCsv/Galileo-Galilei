@@ -7,12 +7,30 @@
     <title>Galileu Galilei</title>
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <style>
+        body::-webkit-scrollbar{
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track{
+            background: rgb(90, 90, 90);
+        }
+        ::-webkit-scrollbar-thumb{
+            background: #2f779e;
+            border-radius: 8px;
+        }
+
+    </style>
 </head>
-<body>
-    <header class="bg-blue-400 flex justify-around">
+<body class=" ">
+    <header class="bg-blue-900 flex flex-wrap justify-around items-center">
+        <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Galileo_Signature.svg/312px-Galileo_Signature.svg.png" alt="Assinatura de Galileu Galilei" class="w-1/2 m-auto my-2"></a>
         <div>
             <nav>
-                <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Galileo_Signature.svg/312px-Galileo_Signature.svg.png" alt="Assinatura de Galileu Galilei" class="w-1/2 m-auto my-2"></a>
+                <ul class="flex font-mono">
+                    <li><a class="m-2 text-white" href="index.html" rel="next" target="_self">Início</a></li>
+                    <li><a class="m-2 text-white" href="invencoes.html" rel="next" target="_self">Invenções</a></li>
+                    <li><a class="m-2 text-white" href="teorias.html" rel="next" target="_self">Teorias</a></li>
+                </ul>
             </nav>
         </div>
     </header>
@@ -20,7 +38,7 @@
         <img class="w-auto justify-end m-auto mr-0 my-4 border drop-shadow-2xl rounded-lg" src="https://s2.glbimg.com/HQZHjUneFZlRQHKdw_0h6HpcG7Y=/512x320/smart/e.glbimg.com/og/ed/f/original/2021/02/10/galileu-site.jpg" alt="Galileu Galilei" >
         <div class=" my-5 md:m-10">
             <details>
-                <summary class=" text-xl">Quem foi Galileo Galilei ? ?</summary>
+                <summary class=" text-xl font-mono">Quem foi Galileo Galilei ? ?</summary>
                 <p>
                     Galileu Galilei foi um físico, matemático, filósofo e astrônomo,
                     natural da cidade de Pisa, localizada na região Toscana da Itália,
@@ -40,12 +58,12 @@
             </details>
         
         
-            <a href="invencoes.html" rel="next" target="_self" class=""
+            <a href="invencoes.html" rel="next" target="_self" class="text-yellow-500"
              >>>>Suas invenções<<<</a>
         
         
             <details>
-                <summary class="text-xl">Filosofia</summary>
+                <summary class="text-xl font-mono">Filosofia</summary>
                 <p>
                     Galileu buscava desassociar a ciência da religião, 
                     para ele a ciência e a fé não se instigam, posto que, 
@@ -61,12 +79,12 @@
             </details>
         
         
-            <a href="teorias.html" rel="next" target="_self"
+            <a href="teorias.html" rel="next" target="_self" class="text-yellow-500"
             >>>>Teorias<<<</a>
         
         
             <details>
-                <summary class="text-xl">O fim da vida</summary>
+                <summary class="text-xl font-mono">O fim da vida</summary>
                 <p>
                     O final da sua vida foi relativamente infeliz, posto quê, 
                     no decorrer de toda sua vida passou por adversidades com 

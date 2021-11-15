@@ -7,18 +7,36 @@
     <title>Teorias de Galileu</title>
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <style>
+        body::-webkit-scrollbar{
+            width: 10px;
+        }
+        ::-webkit-scrollbar-track{
+            background: rgb(90, 90, 90);
+        }
+        ::-webkit-scrollbar-thumb{
+            background: #2f779e;
+            border-radius: 8px;
+        }
+
+    </style>
 </head>
-<body>
-    <header class="bg-blue-400 flex justify-around">
+<body class=" ">
+    <header class="bg-blue-900 flex flex-wrap justify-around items-center">
+        <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Galileo_Signature.svg/312px-Galileo_Signature.svg.png" alt="Assinatura de Galileu Galilei" class="w-1/2 m-auto my-2"></a>
         <div>
             <nav>
-                <a href="index.html"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Galileo_Signature.svg/312px-Galileo_Signature.svg.png" alt="Assinatura de Galileu Galilei" class="w-1/2 m-auto my-2"></a>
+                <ul class="flex font-mono">
+                    <li><a class="m-2 text-white" href="index.html" rel="next" target="_self">Início</a></li>
+                    <li><a class="m-2 text-white" href="invencoes.html" rel="next" target="_self">Invenções</a></li>
+                    <li><a class="m-2 text-white" href="teorias.html" rel="next" target="_self">Teorias</a></li>
+                </ul>
             </nav>
         </div>
     </header>
     <div class="rounded-md">
         <div class="text-xl my-3">
-            <h1 class="p-2 ">Teorias</h1>
+            <h1 class="p-2 font-mono font-bold">Teorias</h1>
         </div>
         <div class="grid md:grid-cols-2">
             <div class="w-3/4 border border-1 border-black rounded-xl m-auto p-5 md:p-10 my-5">
